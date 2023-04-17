@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.lienImage {
+    margin: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lienMenu {
+    margin: 4%;
+    transition: color 1s;
+    color : black;
+    text-decoration: none;
+}
+
+.lienMenu:hover {
+    color: blue;
+}
+
+.btnMenu {
+    margin: 4%;
+}
+
+.btnMenu:hover {
+    box-shadow: 2px 2px 2px black;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+
+.titreSection {
+    margin-top: 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    flex: 1;
+    margin: 3%;
+    background-color: gray;
+    transition: 1s;
+    padding: 3%;
+    border-radius: 10px;
+    flex-basis: 30%;
+    max-width: 300px;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.cardImage {
+    width: auto;
+    height: 200px;
+}
+
+.recherche {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomsRecherche {
+    transition: color 1s;
+    color : black;
+}
+
+.nomsRecherche:hover {
+    color : blue;
+}
+
+.logoAnime {
+    width: 200px;
+    height: auto;
+    animation: rotation 2s linear infinite;
+  }
+  
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.divLiensFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.lienFooter {
+    margin: 5%;
+    transition: color 1s;
+    color : black;
+    text-decoration: none;
+}
+
+.lienFooter:hover {
+    color: blue;
+}
+
+.copyright {
+    text-align: center;
+}
